@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: darkblue;
+        }
+
+        caption {
+            text-decoration: underline;
+            color: wheat;
+        }
+
+        caption:hover {
+            text-decoration: line-through;
+            text-decoration-color: aquamarine;
+        }
+
+        table {
+            width: 38%;
+            height: 11%;
+            border-collapse: separate;
+            table-layout: auto;
+            margin: auto;
+            background-color: antiquewhite;
+        }
+
+        td,
+        th {
+            border-bottom: darkslategray solid 2px;
+            border-right: darkslategray solid 1px;
+            cursor: copy;
+        }
+
+        th {
+            color: rgba(255, 0, 0);
+            cursor: alias !important;
+        }
+
+        td {
+            color: blue;
+        }
+
+        td:hover {
+            background-color: lightblue;
+        }
+
+        div {
+            overflow-x: auto;
+        }
+
+        th:hover {
+            background-color: lightcoral;
+        }
+
+        #imleç2 {
+            cursor: auto;
+        }
+
+        /*
+    td:nth-child(even){
+        background-color: #F0F0F0;
+    }
+*/
+        /*
+    td:nth-child(odd){
+        background-color: #F0F0F0;
+    }
+*/
+    </style>
+    <meta charset="utf-8">
+    <title>wwwwwwwwww.com</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <caption>Kişisel Bilgiler</caption>
+            <thead>
+                <tr>
+                    <th>İSİM</th>
+                    <th>SOYİSİM</th>
+                    <th>YAŞ</th>
+                    <th>CİNSİYET</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MURAT CAN</td>
+                    <td>KÖKKAYA</td>
+                    <td>15</td>
+                    <td id="imleç2">
+                        <input type="radio" name="cinsiyet">
+                        <label for="male">erkek</label>
+                        <input type="radio" name="cinsiyet">
+                        <label for="female">kadın</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        console.log(window.location.pathname);
+    </script>
+</body>
+
+</html>
